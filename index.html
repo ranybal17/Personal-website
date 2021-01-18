@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Personal Website">
+	<meta name="keywords" content="Kenny Jung">
+	<meta name="author" content="Kenny Jung">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kenny Jung</title>
+    <style>@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap');</style>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="menu-toggler">
+			<div class="bar half start"></div>
+			<div class="bar"></div>
+			<div class="bar half end"></div>
+		</div>
+		<nav class="top-nav">
+			<ul class="nav-list">
+				<li>
+					<a href="index.html" class="nav-link">Home</a>
+				</li>
+				<li>
+					<a href="#about" class="nav-link">About</a>
+				</li>
+				<li>
+					<a href="#projects" class="nav-link">Projects</a>
+				</li>
+				<li>
+					<a target="_blank" href="assets/resume.pdf" class="nav-link">Resume</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="landing-img">
+			<div class="landing-text" data-aos="fade-up" data-aos-delay="150">
+				<h1>Kenny Jung</h1>
+				<h6>Computer Science and Engineering Student</h6>
+			</div>
+		</div>
+	</header>
+
+	<section class="about" id="about">
+		<div class="container">
+			<div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+				<img src="images/me.png" alt="">
+			</div>
+			<div class="about-details" data-aos="fade-left" data-aos-delay="600">
+				<div class="about-heading">
+					<h1>About</h1>
+					<h6>Myself</h6>
+				</div>
+				<p>
+					Hello! My name is Kenny Jung. I study computer science and engineering at the University of California, Merced. My passion is to build a product that solves problems many people face. Currently, I am particularly interested in full-stack development and machine learning. I combine my passion with these interests to pursue a career as a software engineer. 
+					<br><br>
+					Outside of computer science and programming, I love playing, watching, and talking about basketball. I am a huge Lakers fan, dating back to 2006 after Kobe Bryant's 81 point game. I respect his Mamba Mentality, and I put it into my work ethic.
+				</p>
+				<div class="social-media">
+					<ul class="nav-list">
+						<li>
+							<a href="mailto:kenrohs@gmail.com" class="icon-link">
+								<i class="fas fa-envelope"></i>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.linkedin.com/in/kennyjung/" class="icon-link">
+								<i class="fab fa-linkedin"></i>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/kennyjung0223" class="icon-link">
+								<i class="fab fa-github"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="projects" id="projects">
+		<div class="container">
+			<div class="section-heading" data-aos="fade-in" data-aos-delay="225">
+				<h1>Projects</h1>
+				<h6>Here's what I've been up to</h6>
+			</div>
+			<div class="project">
+				<div class="project-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+					<a target="_blank" href="https://github.com/kennyjung0223/dogs_and_cats_classifier">
+						<img class="resize-img" src="images/dogs_vs_cats.gif">
+					</a>
+				</div>
+				<div class="project-description" data-aos="fade-left" data-aos-delay="450">
+					<h6>Machine Learning GUI</h6>
+					<h1>Dogs vs Cats Classifier</h1>
+					<p>
+						This project uses concepts in machine learning to classify dogs and cats. The model used was a multi-layer convolutional neural network using Tensorflow and Keras. The graphical user interface was built with Tkinter. The accuracy of this model turned out to be 95.65%.
+					</p>
+					<span class="box-info complete">Complete</span><span class="box-info framework">Tensorflow</span><span class="box-info framework">Keras</span><span class="box-info p-lang">Python</span><span class="box-info tool">Machine Learning</span>
+				</div>
+			</div>
+			<div class="project">
+				<div class="project-description has-margin-right" data-aos="fade-right" data-aos-delay="600">
+					<h6>Django Web Application</h6>
+					<h1>Coursinary</h1>
+					<p>
+						Coursinary allows students to read more about a course from students who have already taken it. The purpose is to ease the access to this kind of information, especially for curious students who want a head start to the course material. Currently, the web app only supports students at the University of California, Merced.
+					</p>
+					<span class="box-info complete">Complete</span><span class="box-info framework">Django</span><span class="box-info p-lang">Python</span><span class="box-info tool">Git</span><span class="box-info tool">Web Application</span>
+				</div>
+				<div class="project-img" data-aos="fade-left" data-aos-delay="750">
+					<a target="_blank" href="http://coursinary.herokuapp.com/">
+						<img class="resize-img" src="images/coursinary.gif">
+					</a>
+				</div>
+			</div>
+			<div class="project">
+				<div class="project-img has-margin-right" data-aos="fade-right" data-aos-delay="900">
+					<a target="_blank" href="https://kennyjung0223.github.io/sorting-visualizer/">
+						<img class="resize-img" src="images/sorting-visualizer.gif">
+					</a>
+				</div>
+				<div class="project-description" data-aos="fade-left" data-aos-delay="1050">
+					<h6>React Application</h6>
+					<h1>Sorting Visualizer</h1>
+					<p>
+						This personal project visualizes the sorting algorithms I learned in my Data Structures class. The algorithms used are the following: Insertion Sort, Selection Sort, Merge Sort, and Quick Sort. I learned more about their time complexities and the pros and cons for these algorithms.
+					</p>
+					<span class="box-info complete">Complete</span><span class="box-info framework">React</span><span class="box-info p-lang">JavaScript</span><span class="box-info tool">Sorting Algorithms</span>
+				</div>
+			</div>
+			<div class="project">
+				<div class="project-description has-margin-right" data-aos="fade-right" data-aos-delay="1200">
+					<h6>React Application</h6>
+					<h1>Searching Visualizer</h1>
+					<p>
+						This personal project visualizes the searching algorithms I learned in my Data Structures class. The algorithms used are the following: Linear Search, Binary Search, Jump Search, Exponential Search, and Interpolation Search. I learned more about their time complexities and the pros and cons for these algorithms.
+					</p>
+					<span class="box-info complete">Complete</span><span class="box-info framework">React</span><span class="box-info p-lang">JavaScript</span><span class="box-info tool">Searching Algorithms</span>
+				</div>
+				<div class="project-img" data-aos="fade-left" data-aos-delay="1350">
+					<a target="_blank" href="https://kennyjung0223.github.io/searching-visualizer/">
+						<img class="resize-img" src="images/searching-visualizer.gif">
+					</a>
+				</div>
+			</div>
+<!-- 			<div class="project">
+				<div class="project-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+					<a target="_blank" href="https://github.com/UCMercedACM/ACM">
+						<img class="resize-img" src="images/acm-logo.jpg">
+					</a>
+				</div>
+				<div class="project-description" data-aos="fade-left" data-aos-delay="1800">
+					<h6>Full-Stack Development</h6>
+					<h1>ACM Website</h1>
+					<p>
+						With other ACM members, we are currently working on a website for our school's Association for Computing Machinery Chapter. It will serve as the main dashboard for our members, containing registration to prioritize members over non-members, powerpoint slides from workshops, and more.
+					</p>
+					<span class="box-info in-progress">In Progress</span><span class="box-info framework">Angular</span><span class="box-info framework">Express</span><span class="box-info tool">Node.js</span><span class="box-info tool">NgRx</span>
+				</div>
+			</div> -->
+			<!-- <div class="project">
+				<div class="project-description has-margin-right" data-aos="fade-right" data-aos-delay="1950">
+					<h6>Class Project</h6>
+					<h1>Wordsearch Solver</h1>
+					<p>
+						My first project for my Computer Organization and Assembly Language class, I built a wordsearch solver. The program will take in a block of letters to search words from and a list of words for the word bank. The list of words are the states of the United States of America. We were tasked to solve from left to right, right to left, top to bottom, diagonally top to bottom, and diagonally bottom to right. We could not use arrays; we had to use pointers. 
+					</p>
+					<span class="box-info complete">Complete</span><span class="box-info framework">Terminal</span><span class="box-info framework">Vim</span><span class="box-info tool">Pointers</span><span class="box-info p-lang">C</span>
+				</div>
+				<div class="project-img" data-aos="fade-left" data-aos-delay="2100">
+					<a target="_blank" href="assets/CSE31_Project1.pdf">
+						<img class="resize-img" src="images/wordsearch.jpg">
+					</a>
+				</div>
+			</div> -->
+			<!-- <div class="project">
+				<div class="project-description has-margin-right" data-aos="fade-right" data-aos-delay="1950">
+					<h6>Web Application</h6>
+					<h1>School GPA Calculator</h1>
+					<p>
+						My ACM members and I are also currently working on an improved GPA calculator for our school. The new features include a drop-down menu for the different schools on campus and a function to calculate future GPA.
+					</p>
+					<span class="box-info in-progress">In Progress</span><span class="box-info tool">Git</span>
+					<span class="box-info p-lang">HTML</span><span class="box-info p-lang">CSS</span><span class="box-info p-lang">JavaScript</span>
+				</div>
+				<div class="project-img" data-aos="fade-left" data-aos-delay="2100">
+					<a target="_blank" href="https://github.com/UCMercedACM/gpa-calc">
+						<img class="resize-img" src="images/gpa-calc.png">
+					</a>
+				</div>
+			</div> -->
+			<!-- <div class="project">
+				<div class="project-img has-margin-right" data-aos="fade-right" data-aos-delay="2250">
+					<a target="_blank" href="https://docs.google.com/presentation/d/1hL9KSM_wQ84nE-9SLCkDPOW7ki7It1bAERMgpXAbuAU/edit?usp=sharing">
+						<img class="resize-img" src="images/Solar-Bench-1st-Prototype-Drawing.png">
+					</a>
+				</div>
+				<div class="project-description" data-aos="fade-left" data-aos-delay="2400">
+					<h6>Engineering Project</h6>
+					<h1>Solar Bench</h1>
+					<p>
+						My potential class for Theta Tau planned an engineering project of a bench powered by solar panels to charge devices. We were inspired by the sustainability and how resourceful a bench with charging capabilities would be in our modern world. The bench involves many aspects of engineering: electrical, environmental, mechanical, materials science, and computer science (later suggested using Arduino to change the angle of solar panels for maximum solar gathering). Due to the coronavirus, this project is postponed until further notice.
+
+						We are still fundraising. We have the designs done, but we have yet to start on the project physically.
+					</p>
+					<span class="box-info in-progress">Postponed</span><span class="box-info framework">Structural Design</span><span class="box-info framework">Electrical Design</span><span class="box-info framework">Arduino</span><span class="box-info tool">Fundraising</span><span class="box-info tool">Teamwork</span>
+				</div>
+			</div> -->
+		</div>
+	</section>
+
+	<footer class="copyright">
+		<div class="up" id="up">
+			<i class="fas fa-chevron-up"></i>
+		</div>
+		<p>&copy; 2020 Kenny Jung | Made with <i class="fa fa-heart" style="color:red"></i></p>
+	</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
